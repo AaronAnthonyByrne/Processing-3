@@ -1,0 +1,20 @@
+git init - intilises a empty repositry. creates the local git.
+git remote add origin - website address
+git pull origin master - pull the changes from the git repositry into the local git repositry
+git add . 
+git commit -m "initial version" - snapshot of the file system. 
+git push --set-upstrea  origin master - first time it will give and error
+git log - shows all versions of the code.
+git checkout (40 didigt number) - rollback a commit.
+git checkout master - bring you back to the last commit.
+
+git checkout -b circle - create a branch called circle and commit changes to local disk and on Github.
+git add . 
+git commit -m "drew a circle"
+git push --set-upstream origin circle
+
+git checkout master - go back to the master branch
+git checkout circle - go the the brach with the circle.
+
+git checkout master - go to the branch you want to merge into.
+git merge circle.
